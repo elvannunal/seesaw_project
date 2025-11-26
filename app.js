@@ -162,7 +162,7 @@ function renderObject(obj) {
     objectElement.style.backgroundColor = getObjectColor(obj.weight);
 
     //object(ball-weights) set weight as a text
-    objectElement.textContent = obj.weight;
+    objectElement.textContent =`${obj.weight} kg`;
 
     //set font size
     objectElement.style.fontSize = `${size * 0.4}px`;
