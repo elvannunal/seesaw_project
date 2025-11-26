@@ -19,11 +19,13 @@ const resetButton = document.getElementById('reset-seesaw');
 
 let objects = [];
 
-//obj weight
+//object(ball) weight
 let nextWeight = Math.floor(Math.random() * 10) + 1;
 
+//show in html the random weight
 nextWeightDisplay.textContent = `${nextWeight} kg`;
 
+//load init method
 document.addEventListener('DOMContentLoaded', init);
 
 /**
