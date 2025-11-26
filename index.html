@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahterevalli Simülasyonu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="info-panel">
+            <div id="left-weight" class="stat-box">
+                <span class="label">Left Weight</span>
+                <span class="value">0.0 kg</span>
+            </div>
+            <div id="next-weight" class="stat-box">
+                <span class="label">Next Weight</span>
+                <span class="value">? kg</span>
+            </div>
+            <div id="right-weight" class="stat-box">
+                <span class="label">Right Weight</span>
+                <span class="value">0.0 kg</span>
+            </div>
+            <div id="tilt-angle" class="stat-box">
+                <span class="label">Tilt Angle</span>
+                <span class="value">0.0°</span>
+            </div>
+        </div>
+
+        <div id="seesaw-area" class="seesaw-area">
+            <div id="seesaw-plank-container" class="seesaw-plank-container">
+                <div class="pivot"></div>
+                <div id="seesaw-plank" class="seesaw-plank">
+                    </div>
+            </div>
+        </div>
+
+        <div class="controls-and-log">
+            <button id="reset-seesaw">Reset</button>
+
+            <div id="log-area" class="log-area">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
