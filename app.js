@@ -172,7 +172,7 @@ function renderObject(obj) {
 
     //arrange style 
     objectElement.style.transition = 'top 0.6s ease-out';
-    objectElement.style.top = '-100px';
+    objectElement.style.top = '-150px';
 
     //add as a child(as a last element)
     seesawPlank.appendChild(objectElement);
