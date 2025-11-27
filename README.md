@@ -19,4 +19,8 @@ Bu proje, **pure JavaScript, HTML ve CSS** kullanılarak geliştirilmiş bir see
 - JavaScript (ES6+)
 - LocalStorage ile veri kaydetme/geri yükleme
 
+## Demo Görselleri
+Seesaw simülasyonunun ekran görüntüleri:
 
+![Seesaw Demo 1](https://i.ibb.co/fYqJSVYn/demo1.png)  
+![Seesaw Demo 2](https://i.ibb.co/fY1YtCtq/demo2.png)
