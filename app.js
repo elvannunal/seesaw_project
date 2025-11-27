@@ -165,7 +165,7 @@ function renderObject(obj) {
     objectElement.textContent =`${obj.weight} kg`;
 
     //set font size
-    objectElement.style.fontSize = `${size * 0.35}px`;
+    objectElement.style.fontSize = `${size * 0.3}px`;
 
     //arrange object(ball-weights) position 
     objectElement.style.left = `${obj.positionX - size / 2}px`;
