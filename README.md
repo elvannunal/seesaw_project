@@ -22,5 +22,7 @@ Bu proje, **pure JavaScript, HTML ve CSS** kullanılarak geliştirilmiş bir see
 ## Demo Görselleri
 Seesaw simülasyonunun ekran görüntüleri:
 
-![Seesaw Demo 1](https://i.ibb.co/fYqJSVYn/demo1.png)  
-![Seesaw Demo 2](https://i.ibb.co/fY1YtCtq/demo2.png)
+![Seesaw Demo 1]<img width="1466" height="919" alt="demo1" src="https://github.com/user-attachments/assets/df31c080-825a-452d-8143-ca5b826de9c6" />
+
+![Seesaw Demo 2]
+<img width="1466" height="924" alt="demo2" src="https://github.com/user-attachments/assets/59b1728d-deec-4d39-8296-fa3587602a86" />
