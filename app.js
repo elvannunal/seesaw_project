@@ -119,16 +119,16 @@ function calculateTilt() {
  */
 function getObjectColor(weight) {
     const colors = [
-        '#a8dadc',
-        '#84a98c',
-        '#778da9',
-        '#c77dff',
+        '#cc6633',
+        '#1a1a1a',
+        '#80b369',
+        '#6c7a2c',
         '#ffb703',
-        '#fb8500',
-        '#e85d04',
-        '#d00000',
-        '#8e0000',
-        '#4a0000'
+        '#ff6f6f',
+        '#135590',
+        '#4b5563',
+        '#7b2e2f',
+        '#d97706'
     ];
     if (weight >= 1 && weight <= 10) {
         return colors[weight - 1];
@@ -152,7 +152,7 @@ function renderObject(obj) {
     objectElement.id = `object-${obj.id}`;
 
     //calculate size of ball
-    const size = 30 + obj.weight * 2;
+    const size = 34 + obj.weight * 2;
 
     //set this size width and height
     objectElement.style.width = `${size}px`;
@@ -165,7 +165,7 @@ function renderObject(obj) {
     objectElement.textContent =`${obj.weight} kg`;
 
     //set font size
-    objectElement.style.fontSize = `${size * 0.4}px`;
+    objectElement.style.fontSize = `${size * 0.35}px`;
 
     //arrange object(ball-weights) position 
     objectElement.style.left = `${obj.positionX - size / 2}px`;

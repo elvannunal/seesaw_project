@@ -45,10 +45,11 @@ body{
     background:#cd8b62;
     flex: 1;
     margin: 0 5px;
+    color:wheat;
 }
 .value{
     padding: 8px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #333;
 }
 /* ==================================== */
@@ -78,9 +79,10 @@ body{
     width: 45px;
     height: 45px;
     background-color: #333;
-    border-radius: 50%;
+   /* border-radius: 50%;*/
     bottom: -16px;
     z-index: 2;
+    clip-path: polygon(100% 100%, 0% 100%, 50% 0%);
 }
 
 .seesaw-plank {
